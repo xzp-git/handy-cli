@@ -1,5 +1,11 @@
-function main(p) {
-  console.log(p);
+const pkg = require("../package.json")
+
+function core() {
+  checkPkgVersion()
 }
 
-module.exports = main;
+function checkPkgVersion() {
+  console.log(pkg.version)
+}
+
+module.exports = core
