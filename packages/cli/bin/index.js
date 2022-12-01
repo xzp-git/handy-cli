@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-const importLocal = require("import-local")
+const cli = require("../dist/index")
 
-if (importLocal(__filename)) {
-  require("npmlog").info("cli", "正在使用本地版本的 handy-cli")
-} else {
-  require("../lib/core")(process.argv.slice(2))
-}
+cli()

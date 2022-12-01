@@ -1,18 +1,23 @@
 {
   "name": "@handy-cli/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
     "handy": "bin/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "link": "npm link",
+    "unlink": "npm unlink @handy-cli/cli -g",
+    "handy": "ts-node --esm ./bin/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@handy-cli/utils": "workspace:^1.0.0"
+    "@handy-cli/utils": "workspace:^1.0.1",
+    "@types/semver": "^7.3.13",
+    "colors": "^1.4.0",
+    "semver": "^7.3.8"
   }
 }
