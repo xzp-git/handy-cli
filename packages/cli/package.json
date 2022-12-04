@@ -16,8 +16,17 @@
   "license": "ISC",
   "dependencies": {
     "@handy-cli/utils": "workspace:^1.0.1",
-    "@types/semver": "^7.3.13",
     "colors": "^1.4.0",
-    "semver": "^7.3.8"
+    "dotenv": "^16.0.3",
+    "minimist": "^1.2.7",
+    "path-exists": "^5.0.0",
+    "user-home": "^3.0.0",
+    "root-check": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/path-exists": "^4.0.2",
+    "@types/root-check": "^1.0.0",
+    "@types/user-home": "^2.0.0"
   }
 }

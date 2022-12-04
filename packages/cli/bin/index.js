@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import cli from "../dist/index"
+// eslint-disable-next-line no-undef
+const cli = require('../dist/index')
 
 cli()

@@ -17,7 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "import-local": "^3.1.0",
-    "npmlog": "^7.0.1"
+    "npmlog": "^7.0.1",
+    "semver": "^7.3.8"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -32,6 +33,7 @@
     "@types/import-local": "^3.1.0",
     "@types/node": "^18.11.9",
     "@types/npmlog": "^4.1.4",
+    "@types/semver": "^7.3.13",
     "eslint": "^8.27.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
